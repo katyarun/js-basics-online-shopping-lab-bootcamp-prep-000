@@ -13,6 +13,19 @@ function addToCart(item) {
  // write your code here
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 function viewCart() {
   // write your code here
 }
