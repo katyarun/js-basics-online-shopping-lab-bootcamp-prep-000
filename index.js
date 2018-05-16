@@ -18,10 +18,9 @@ const item = "bananas";
 console.log(addToCart(item));
 console.log(cart);
 
-
-console.log(Math.random() * 100);
-
-
+const item2 = "pancake batter";
+console.log(addToCart(item));
+console.log(cart);
 
 
 
