@@ -86,6 +86,7 @@ function placeOrder(cardNumber) {
   } else {
     const str = `Ypur total cost is ${total()}, which will be charged to the card ${cardNumber}.`;
     cart = [];
+    return str;
   }
 }
 addToCart(item);
