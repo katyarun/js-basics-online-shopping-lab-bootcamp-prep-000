@@ -90,5 +90,5 @@ function placeOrder(cardNumber) {
 }
 addToCart(item);
 addToCart(item2);
-console.log(placeOrder());
+console.log(placeOrder("3433"));
 
