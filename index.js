@@ -81,7 +81,7 @@ addToCart(item2);
 // console.log(viewCart());
 console.log(removeFromCart(item));
 console.log(removeFromCart(item2));
-
+console.log(removeFromCart("potato"));
 
 function placeOrder(cardNumber) {
   // write your code here
