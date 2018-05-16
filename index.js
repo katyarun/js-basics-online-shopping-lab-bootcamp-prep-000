@@ -26,7 +26,9 @@ const item2 = "pancake batter";
 
 
 function viewCart() {
-  
+  if (cart.length === 0) {
+    return "";
+  }
 }
 
 
