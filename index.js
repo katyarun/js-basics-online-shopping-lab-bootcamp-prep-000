@@ -58,10 +58,10 @@ function total() {
   return sum;
 }
 
-addToCart(item);
-addToCart(item2);
-console.log(viewCart());
-console.log(total());
+// addToCart(item);
+// addToCart(item2);
+// console.log(viewCart());
+// console.log(total());
 
 
 
