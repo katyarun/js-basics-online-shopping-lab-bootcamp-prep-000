@@ -81,5 +81,5 @@ function removeFromCart(item) {
 // console.log(removeFromCart("potato"));
 
 function placeOrder(cardNumber) {
-  // write your code here
+  
 }
