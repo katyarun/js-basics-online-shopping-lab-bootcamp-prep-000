@@ -30,7 +30,10 @@ function viewCart() {
     return "Your shopping cart is empty.";
   } else {
     for (let i = 0; i < cart.length; i++) {
-      console.log(`${cart[i].itemName} at $${cart[i].itemPrice}`);
+      if (i === cart.length - 1) {
+        console.log(`${cart[i].itemName} at $${cart[i].itemPrice},`);
+      }
+      console.log(`${cart[i].itemName} at $${cart[i].itemPrice},`);
     }
     
   }
