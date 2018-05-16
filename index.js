@@ -74,12 +74,11 @@ function removeFromCart(item) {
   }
   return "That item is not in your cart.";
 }
-addToCart(item);
-addToCart(item2);
-// console.log(viewCart());
-console.log(removeFromCart(item));
-console.log(removeFromCart(item2));
-console.log(removeFromCart("potato"));
+// addToCart(item);
+// addToCart(item2);
+// console.log(removeFromCart(item));
+// console.log(removeFromCart(item2));
+// console.log(removeFromCart("potato"));
 
 function placeOrder(cardNumber) {
   // write your code here
