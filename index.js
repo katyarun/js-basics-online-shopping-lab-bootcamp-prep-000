@@ -10,10 +10,13 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  Object.assign({}, { item : Math.floor(Math.floor())});
+  cart.push(Object.assign({}, { item : Math.floor(Math.floor())}));
+  return `${item} has been added to your cart.`;
 }
 
-
+const item = "bananas";
+console.log(addToCart(item));
+console.log(cart);
 
 
 
