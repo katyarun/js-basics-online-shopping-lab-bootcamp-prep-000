@@ -80,6 +80,15 @@ function removeFromCart(item) {
 // console.log(removeFromCart(item2));
 // console.log(removeFromCart("potato"));
 
-function placeOrder() {
-  return ""
+function placeOrder(cardNumber) {
+  if (cardNumber === undefined) {
+    return "Sorry, we don't have a credit card on file for you.";
+  } else {
+    const str = `Ypur total cost is ${total()}, which will be charged to the card ${cardNumber}.`;
+    cart = [];
+  }
 }
+addToCart(item);
+addToCart(item2);
+console.log(placeOrder());
+
