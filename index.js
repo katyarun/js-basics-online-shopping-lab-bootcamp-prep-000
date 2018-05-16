@@ -19,7 +19,7 @@ console.log(addToCart(item));
 console.log(cart);
 
 const item2 = "pancake batter";
-console.log(addToCart(item));
+console.log(addToCart(item2));
 console.log(cart);
 
 
