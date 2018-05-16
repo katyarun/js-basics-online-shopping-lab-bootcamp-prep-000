@@ -31,13 +31,16 @@ function viewCart() {
   } else {
     let str = "In your cart, you have ";
     for (let i = 0; i < cart.length; i++) {
-      if (i === cart.length - 1) {
+      if (cart.length === 1) {
+        str += `${cart[i].itemName} at $${cart[i].itemPrice}.`;
+        return str;
+      } else if (i === cart.length - 1) {
         str += `and ${cart[i].itemName} at $${cart[i].itemPrice}.`;
+        return str;
       } else { 
         str += `${cart[i].itemName} at $${cart[i].itemPrice}, `;
       }
     }
-    return str;
   }
 }
 addToCart(item);
