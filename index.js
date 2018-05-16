@@ -55,6 +55,7 @@ function total() {
   for (let i = 0; i < cart.length; i++) {
     sum += cart[i].itemPrice;
   }
+  return sum;
 }
 
 addToCart(item);
