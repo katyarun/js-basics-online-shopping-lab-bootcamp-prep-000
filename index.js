@@ -80,6 +80,7 @@ addToCart(item);
 addToCart(item2);
 // console.log(viewCart());
 console.log(removeFromCart(item));
+console.log(removeFromCart(item2));
 
 
 function placeOrder(cardNumber) {
