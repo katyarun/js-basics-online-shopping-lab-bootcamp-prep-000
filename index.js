@@ -29,9 +29,11 @@ function viewCart() {
   if (cart.length === 0) {
     return "Your shopping cart is empty.";
   } else {
+    let str = "";
     for (let i = 0; i < cart.length; i++) {
       if (i === cart.length - 1) {
         console.log(`and ${cart[i].itemName} at $${cart[i].itemPrice}.`);
+        str += 
       } else { 
       console.log(`${cart[i].itemName} at $${cart[i].itemPrice},`);
       }
