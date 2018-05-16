@@ -32,10 +32,8 @@ function viewCart() {
     let str = "In your cart, you have ";
     for (let i = 0; i < cart.length; i++) {
       if (i === cart.length - 1) {
-        // console.log(`and ${cart[i].itemName} at $${cart[i].itemPrice}.`);
         str += `and ${cart[i].itemName} at $${cart[i].itemPrice}.`;
       } else { 
-        // console.log(`${cart[i].itemName} at $${cart[i].itemPrice}, `);
         str += `${cart[i].itemName} at $${cart[i].itemPrice}, `;
       }
     }
