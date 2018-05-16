@@ -80,6 +80,6 @@ function removeFromCart(item) {
 // console.log(removeFromCart(item2));
 // console.log(removeFromCart("potato"));
 
-function placeOrder(cardNumber) {
-  
+function placeOrder() {
+  return ""
 }
