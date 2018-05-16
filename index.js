@@ -43,16 +43,26 @@ function viewCart() {
     }
   }
 }
-addToCart(item);
-addToCart(item2);
-console.log(viewCart());
+// addToCart(item);
+// addToCart(item2);
+// console.log(viewCart());
 
 
 
 
 function total() {
-  // write your code here
+  let sum = 0;
+  for (let i = 0; i < cart.length; i++) {
+    sum += cart[i].itemPrice;
+  }
 }
+
+addToCart(item);
+addToCart(item2);
+console.log(viewCart());
+console.log(total());
+
+
 
 function removeFromCart(item) {
   // write your code here
