@@ -44,7 +44,7 @@ function viewCart() {
 }
 addToCart(item);
 addToCart(item2);
-viewCart();
+console.log(viewCart());
 
 
 
