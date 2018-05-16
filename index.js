@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  cart.push(Object.assign({}, { itemName : item, item : Math.floor(Math.random())}));
+  cart.push(Object.assign({}, { itemName : item, itemPrice : Math.floor(Math.random())}));
   return `${item} has been added to your cart.`;
 }
 
@@ -19,7 +19,7 @@ console.log(addToCart(item));
 console.log(cart);
 
 
-
+console.log(Math.random());
 
 
 
