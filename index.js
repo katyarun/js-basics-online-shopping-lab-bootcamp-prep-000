@@ -19,7 +19,7 @@ console.log(addToCart(item));
 console.log(cart);
 
 
-console.log(Math.random());
+console.log(Math.random(1, 100));
 
 
 
